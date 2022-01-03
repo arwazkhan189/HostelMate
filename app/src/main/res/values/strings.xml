@@ -1,3 +1,72 @@
-<resources>
-    <string name="app_name">HostelMate</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Hostel Mate</string>
+    <string name="hostel_icon" translatable="false">Hostel icon</string>
+    <string name="hostels" translatable="false">Hostels</string>
+    <string name="add" translatable="false">Add</string>
+    <string name="hostel_name" translatable="false">Hostel Name</string>
+    <string name="boys_girls" translatable="false">Boys/Girls</string>
+    <string name="fee_per_month">Fee Per Month</string>
+    <string name="rating">Rating</string>
+    <string name="safety_service">Safety Service</string>
+    <string name="hostelmate_zone">HostelMate Zone</string>
+    <string name="copyright_hostelmate">HostelMate | 2022</string>
+    <string name="help">help</string>
+    <string name="hosteltype">HostelType</string>
+    <string name="hostel_type">Hostel Type :</string>
+    <string name="girls_boys">Girls/Boys</string>
+    <string name="contact_no">Contact No. :</string>
+    <string name="_0123456789">0123456789</string>
+    <string name="address">Address :</string>
+    <string name="koni_bilaspur">Koni, Bilaspur</string>
+    <string name="fee_per_month_">Fee per month :</string>
+    <string name="rs_2500">Rs. 2500/-</string>
+    <string name="hostel_time">Hostel Time</string>
+    <string name="hostel_in_time">Hostel In-Time :</string>
+    <string name="_9_00_pm">9:00 PM</string>
+    <string name="hostel_rating">Hostel Rating</string>
+    <string name="rating_">Rating :</string>
+    <string name="_4_5_5">4.5/5</string>
+    <string name="tiffin_centers">Tiffin Centers</string>
+    <string name="tiffin_center_name">Tiffin Center Name</string>
+    <string name="add_hostel">Add Hostel</string>
+    <string name="tiffin_icon">Tiffin icon</string>
+    <string name="add_tiffin">Add Tiffin Center</string>
+    <string name="sort">Sort By?</string>
+    <string name="cost_low_to_high">Cost(Low to High)</string>
+    <string name="cost_high_to_low">Cost(High to Low)</string>
+    <string name="search_hostels">Search Hostels</string>
+    <string name="not_found">Not found</string>
+    <string name="boyshostel">Boys Hostel</string>
+    <string name="girlshostel">Girls Hostel</string>
+    <string name="login_text">LOGIN WITH GMAIL ACCOUNT</string>
+    <string name="search_tiffin_centers">Search Tiffin Centers</string>
+    <string name="emergency_mobile_number1">"Emergency Mobile Number "</string>
+    <string name="emergency_mobile_number2">Emergency Mobile Number 2</string>
+    <string name="emergency_mobile_number3">Emergency Mobile Number 3</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="HostelsAddress">hostelAddress</string>
+    <string name="mishra_girl_s_hostel">Mishra Girl\'s Hostel</string>
+    <string name="default_web_client_id_auth" tools:ignore="TypographyDashes">378071743533-2h6ai3paqfgbn18gdmtpqemigibtgc39.apps.googleusercontent.com</string>
+    <string name="_9_00pm">9:00PM</string>
+    <string name="kapil_nagar_sarkanda_bilaspur_c_g">Kapil Nagar, Sarkanda Bilaspur(C.G.)</string>
+    <string name="fee">Fee</string>
+    <string name="_8377_4000_month">₹ 4000/Month</string>
+    <string name="x23f0_9_00pm">⏰ 9:00pm</string>
+    <string name="contact">Contact</string>
+    <string name="todo">TODO</string>
+    <string name="location">Location</string>
+    <string name="alert">Alert</string>
+    <string name="feedback">Feedback</string>
+    <string name="send">Send</string>
+    <string name="faqs">FAQs</string>
+    <string name="_1_does_this_app_cover_hostels_and_tiffin_centers_located_anywhere_in_bilaspur">1. Does this app cover hostels and tiffin centers located anywhere in Bilaspur?</string>
+    <string name="ans_no_the_app_is_restricted_to_a_particular_location_ie_from_seepat_chowk_to_koni">Ans- No,the app is restricted to a particular location,ie. from seepat chowk to koni .</string>
+    <string name="_2_can_we_order_lunch_dinner_through_this_app">2. Can we order lunch/dinner through this app?</string>
+    <string name="ans_no_you_cannot_order_directly_through_this_app_the_app_only_provides_the_contact_number_and_the_location_of_the_service_incharge">Ans-No, you cannot order Directly through this app . The app only provides the contact number and the location of the service incharge.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="enter_your_feedback" tools:ignore="TypographyEllipsis">Enter your Feedback or Query...</string>
+    <string name="enter_your_email">Enter your Email...</string>
+    <string name="sign_in_with_google">SIGN IN WITH GOOGLE</string>
 </resources>

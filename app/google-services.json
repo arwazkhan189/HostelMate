@@ -7,41 +7,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:378071743533:android:2c1f636ecb7d9a9e474ca4",
-        "android_client_info": {
-          "package_name": "tech.hostelmatedevelopers.hostelmate"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "378071743533-2h6ai3paqfgbn18gdmtpqemigibtgc39.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAEi_JEp8KM_W6iCKPQLimRpZneYtj8VcA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "378071743533-2h6ai3paqfgbn18gdmtpqemigibtgc39.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:378071743533:android:2ae73340cb0a0e2a474ca4",
+        "mobilesdk_app_id": "1:378071743533:android:79c6894565f2a887474ca4",
         "android_client_info": {
           "package_name": "tech.hostlematedevelopers.hostelmate"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "378071743533-5a34bdfdsaviq5qrike9ka277582io7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.hostlematedevelopers.hostelmate",
+            "certificate_hash": "f5e975c8323578b1347e5b13103ad57b3534760e"
+          }
+        },
         {
           "client_id": "378071743533-2h6ai3paqfgbn18gdmtpqemigibtgc39.apps.googleusercontent.com",
           "client_type": 3

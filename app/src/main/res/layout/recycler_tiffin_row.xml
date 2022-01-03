@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/back"
+    android:elevation="8dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:id="@+id/llRecyclerTiffinRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgTiffinCenterImage"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_margin="6dp"
+            android:layout_marginStart="4dp"
+            android:elevation="9dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tifin"
+            tools:ignore="ContentDescription" />
+
+        <RelativeLayout
+            android:id="@+id/rlRecyclerTiffinRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTiffinCenterName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:padding="5dp"
+                android:text="@string/tiffin_center_name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/tiffin_rating"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/tvFeePerMonth"
+                android:layout_marginStart="-25dp"
+                android:layout_marginTop="-2dp"
+                android:src="@drawable/rating"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/tvRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@id/tiffin_rating"
+                android:padding="5dp"
+                android:text="@string/rating"
+                android:textColor="@color/yellow"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFeePerMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTiffinCenterName"
+                android:layout_marginTop="-2dp"
+                android:padding="5dp"
+                android:text="@string/fee_per_month"
+                android:textColor="@color/colorBar"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

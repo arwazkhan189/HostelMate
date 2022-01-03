@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddTiffin">
+
+    <RelativeLayout
+        android:id="@+id/RLTop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="#f44336"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgTiffin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/tiffin_icon"
+            android:src="@drawable/tiffinicon" />
+
+        <TextView
+            android:id="@+id/tvAddTiffin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:layout_toEndOf="@+id/imgTiffin"
+            android:text="@string/add_tiffin"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webViewAddTiffin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RLTop" />
+
+</RelativeLayout>
+
+

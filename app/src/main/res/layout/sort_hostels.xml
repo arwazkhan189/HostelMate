@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llCheckBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_boysHostel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="@string/boyshostel"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_girlsHostel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="@string/girlshostel"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkbox_rating"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="5dp"
+        android:text="@string/rating"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_low_to_high"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="5dp"
+        android:text="@string/cost_low_to_high"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_high_to_low"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:onClick="onCheckboxClicked"
+        android:padding="5dp"
+        android:text="@string/cost_high_to_low"
+        android:textSize="20sp" />
+
+</LinearLayout>

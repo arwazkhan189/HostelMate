@@ -3,8 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_login.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24895833333333334" />
+        <entry key="..\:/HostelMate/app/src/main/res/drawable/ic_hostel.xml" value="0.24895833333333334" />
+        <entry key="..\:/HostelMate/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24895833333333334" />
+        <entry key="..\:/HostelMate/app/src/main/res/drawable/ic_search.xml" value="0.24895833333333334" />
+        <entry key="..\:/HostelMate/app/src/main/res/drawable/ic_sort.xml" value="0.24895833333333334" />
+        <entry key="..\:/HostelMate/app/src/main/res/drawable/rounded_corner_search.xml" value="0.24895833333333334" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_add_hostel.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_add_tiffin.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_hostel.xml" value="0.1527777777777778" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_hostel_details.xml" value="0.264" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_hostel_mate_zone.xml" value="0.2" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/HostelMate/app/src/main/res/layout/activity_main.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_safety.xml" value="0.1" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_safety_alert.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_splash.xml" value="0.22420837589376916" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_tiffin.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/activity_tiffin_details.xml" value="0.136" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/recycler_home_row.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/recycler_hostel_row.xml" value="0.16" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/recycler_tiffin_row.xml" value="0.2" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/sort_hostels.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/sort_radio_button.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/layout/sort_tiffin_centers.xml" value="0.2" />
+        <entry key="..\:/HostelMate/app/src/main/res/menu/sort_menu_hostels.xml" value="0.22864583333333333" />
+        <entry key="..\:/HostelMate/app/src/main/res/xml/network_security_config.xml" value="0.22864583333333333" />
       </map>
     </option>
   </component>
